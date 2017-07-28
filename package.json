@@ -1,6 +1,6 @@
 {
   "name": "@ku3mich/test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "test 'framework': deps, helpers, environment based on mocha and sinon",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,7 @@
     "url": "https://github.com/ku3mich/test/issues"
   },
   "homepage": "https://github.com/ku3mich/test#readme",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "mocha": "^3.4.2",
     "should": "^11.2.1",
