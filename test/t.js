@@ -7,4 +7,11 @@ describe('tests', function () {
 
   it('sinon is ok',
      () => assert(sinon));
+
+  it('should-sinon',
+     () => {
+       const proxy = sinon.spy();
+       proxy();
+       proxy.should.be.called();
+     });
 });
