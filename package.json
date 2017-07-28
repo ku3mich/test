@@ -1,6 +1,6 @@
 {
   "name": "@ku3mich/test",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "test 'framework': deps, helpers, environment based on mocha and sinon",
   "main": "index.js",
   "scripts": {
