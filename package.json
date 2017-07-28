@@ -20,11 +20,10 @@
   },
   "homepage": "https://github.com/ku3mich/test#readme",
   "devDependencies": {
+  },
+  "dependencies": {
     "mocha": "^3.4.2",
     "should": "^11.2.1",
     "sinon": "^2.4.1"
-  },
-  "dependencies": {
-    "should": "^11.2.1"
   }
 }
