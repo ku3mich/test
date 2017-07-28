@@ -1,0 +1,1 @@
+--require ./globals --reporter ./spec.js
