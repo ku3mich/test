@@ -8,10 +8,13 @@ describe('tests', function () {
   it('sinon is ok',
      () => assert(sinon));
 
-  it('should-sinon',
+  it('expect is ok',
+     () => expect(1).to.equal(1));
+
+  it('chai-sinon',
      () => {
        const proxy = sinon.spy();
        proxy();
-       proxy.should.be.called();
+       assert(proxy.should.be.called);
      });
 });
