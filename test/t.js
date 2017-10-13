@@ -11,6 +11,12 @@ describe('tests', function () {
   it('expect is ok',
      () => expect(1).to.equal(1));
 
+  it('chai-things is ok',
+     () => {
+       ([0,2]).should.all.not.to.equal(1);
+       ([1,1]).should.all.to.equal(1);
+     });
+
   it('chai-sinon',
      () => {
        const proxy = sinon.spy();

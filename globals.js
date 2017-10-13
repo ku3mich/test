@@ -1,6 +1,6 @@
 const chai = require("chai");
 const sinon = require("sinon");
-
+chai.use(require('chai-things'));
 chai.should();
 chai.use(require("sinon-chai"));
 
